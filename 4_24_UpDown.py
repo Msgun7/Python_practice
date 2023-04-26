@@ -12,6 +12,6 @@ while True:
             print("틀렸습니다. 답은 더욱 큰 수 입니다.")
         elif answer < user_input:
             print("틀렸습니다. 답은 더욱 작은수입니다.")
-        print("다시 답을 입력해주세요 : ")
+        print("다시 답을 입력해주세요 : ",end="")
         user_input
 print("게임이 끝났습니다")
